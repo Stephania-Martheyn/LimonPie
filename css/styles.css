@@ -1,0 +1,57 @@
+
+
+
+* {
+    margin: 0;}
+
+body {
+    background-color: white;
+    font-size: 16px;
+}
+
+
+section.banner  {
+    background-image: url(../imagenes/lemon-pie\ 1.jpg);
+    background-size: cover ;
+    background-attachment: fixed;
+    height: 343px;
+    color: #fff;
+    text-align: left;
+}
+
+section.banner ~ section {
+    max-width: 80%;
+    margin: 30px auto;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+
+}
+
+h2,h3{
+    font-family: `Playfair Display`, serif;
+}
+
+h2{
+    font-size: 24px;
+}
+
+h3{
+    font-size: 18px;
+}
+
+i.fas{
+    font-size: 3rem;
+}
+
+i.fas-fa-shopping-basket{
+    color: blue;
+}
+
+i.fas-fa-list-ol{
+    color: blueviolet;
+}
+
